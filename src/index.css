@@ -1,0 +1,66 @@
+.navlist {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background-color: lightslategray;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  background-color: darkslategray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.homewrapper,
+.profileWrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 55px);
+  background-color: darkslategray;
+}
+
+.profileDetails {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.homewrapper h1,
+.profileWrapper div {
+  color: white;
+  font-size: 40px;
+}
+
+.profileForm {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.formWrapper {
+  margin-top: 20px;
+}
+
+input {
+  padding: 5px;
+}
+
+.formField {
+  display: flex;
+  flex-flow: column;
+}
